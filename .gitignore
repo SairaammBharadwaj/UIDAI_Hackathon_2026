@@ -205,3 +205,30 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# UIDAI Hackathon 2026 - Data Files
+# Exclude raw data directory to avoid committing large/sensitive datasets
+data/raw/
+data/raw/*
+
+# Large files
+*.csv
+*.xlsx
+*.xls
+*.json
+*.parquet
+*.feather
+*.h5
+*.hdf5
+*.pickle
+*.pkl
+
+# Model files
+*.joblib
+*.h5
+*.ckpt
+*.pth
+*.pt
+
+# Allow specific files if needed (uncomment as required)
+# !data/sample.csv
