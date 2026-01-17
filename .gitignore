@@ -218,7 +218,6 @@ data/raw/*
 *.json
 *.parquet
 *.feather
-*.h5
 *.hdf5
 *.pickle
 *.pkl
